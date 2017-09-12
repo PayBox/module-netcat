@@ -1,0 +1,1 @@
+INSERT INTO `netcat`.`Classificator_PaymentSystem` (`PaymentSystem_ID`, `PaymentSystem_Name`, `PaymentSystem_Priority`, `Value`, `Checked`) VALUES (NULL, 'Оплата PayBox онлайн', '1', 'nc_payment_system_paybox', '1');

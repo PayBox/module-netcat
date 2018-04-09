@@ -7,7 +7,7 @@ class nc_payment_system_paybox extends nc_payment_system {
     const ERROR_CURRENCY = NETCAT_MODULE_PAYMENT_PLATRON_ERROR_CURRENCY_IS_NOT_VALID;
     const ERROR_SIGN_IS_NOT_VALID = NETCAT_MODULE_PAYMENT_PLATRON_ERROR_SIGN_IS_NOT_VALID;
 
-    const TARGET_URL = "https://paybox.kz/payment.php";
+    const TARGET_URL = "https://api.paybox.money/payment.php";
 
     protected $automatic = TRUE;
 
